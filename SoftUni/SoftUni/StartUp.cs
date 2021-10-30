@@ -38,7 +38,7 @@ namespace SoftUni
 
             // Console.WriteLine(DeleteProjectById(context));
 
-            Console.WriteLine(RemoveTown(context));
+            // Console.WriteLine(RemoveTown(context));
 
         }
         public static string GetEmployeesFullInformation(SoftUniContext context)
