@@ -35,7 +35,7 @@ namespace P03_FootballBetting.Data.Models
         [Column(TypeName = "nvarchar(6)")]
         public string Result { get; set; }
 
-        public ICollection<PlayerStatistic> PlayerStatistics { get; set; }
-        public ICollection<Bet> Bets { get; set; }
+        public virtual ICollection<PlayerStatistic> PlayerStatistics { get; set; }
+        public virtual ICollection<Bet> Bets { get; set; }
     }
 }

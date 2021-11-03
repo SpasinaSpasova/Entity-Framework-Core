@@ -17,10 +17,10 @@ namespace P03_FootballBetting.Data.Models
         [ForeignKey(nameof(User))]
 
         public int UserId { get; set; }
-        public User User { get; set; }
+        public virtual User User { get; set; }
 
         [ForeignKey(nameof(Game))]
         public int GameId { get; set; }
-        public Game Game { get; set; }
+        public virtual Game Game { get; set; }
     }
 }

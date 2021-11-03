@@ -19,6 +19,6 @@ namespace P03_FootballBetting.Data.Models
         [Required]
         [Column(TypeName = "nvarchar(95)")]
         public string Name { get; set; }
-        public ICollection<Player> Players { get; set; }
+        public virtual ICollection<Player> Players { get; set; }
     }
 }

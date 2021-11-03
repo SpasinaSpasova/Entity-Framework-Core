@@ -19,6 +19,6 @@ namespace P03_FootballBetting.Data.Models
         [Column(TypeName = "nvarchar(95)")]
         public string Name { get; set; }
 
-        public ICollection<Town> Towns { get; set; }
+        public virtual ICollection<Town> Towns { get; set; }
     }
 }
